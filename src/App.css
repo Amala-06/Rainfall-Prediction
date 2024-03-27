@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: linear-gradient(#AEE1F9,#F6EBE6);
+  height:100vh;
 }
 
 .App-logo {
@@ -13,21 +15,108 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header p{
+  color: #0A294C;
+  background-color: #AEE1F9;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vh;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.App-header img{
+  width: 100px;
+  height: 100px; 
+  float: left;
+  border-radius: 50%;
+
+}
+marquee{
+  height:10vh;
+  color: #C90E0E;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.App-footer{
+  background-color: #F6EBE6;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0A294C;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+select {
+  padding: 6px 12px; 
+  font-size: 16px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: #fff; 
+  appearance: auto;
+  color:#0A294C;
 }
 
+select:hover {
+  border-color: #999; 
+}
+
+select:focus {
+  border-color: #333; 
+  outline: none;
+}
+
+
+select option {
+  padding: 8px 12px; 
+  font-size: 16px; 
+}
+.App h1{
+  align-items: center;
+  justify-content: center;
+  color: #0A294C;
+}
 .App-link {
   color: #61dafb;
 }
 
+button {
+  width: 160px;
+  height:28px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color:rgb(2, 2, 49);
+}
+.loading {
+  color: rgb(2, 2, 49);
+  font-size: 20px;
+ 
+}
+
+.error {
+  color: #6C0404;
+  font-size: 20px;
+  
+}
+
+.prediction {
+  color: green;
+  font-size: 20px;
+  
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
