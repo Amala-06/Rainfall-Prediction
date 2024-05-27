@@ -26,11 +26,11 @@
   font-size: 5vh;
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
+
 }
 .App-header img{
   width: 100px;
-  height: 100px; 
+  height: 100px;
   float: left;
   border-radius: 50%;
 
@@ -59,28 +59,28 @@ marquee{
   font-size: 14px;
 }
 select {
-  padding: 6px 12px; 
+  padding: 6px 12px;
   font-size: 16px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  background-color: #fff; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
   appearance: auto;
   color:#0A294C;
 }
 
 select:hover {
-  border-color: #999; 
+  border-color: #999;
 }
 
 select:focus {
-  border-color: #333; 
+  border-color: #333;
   outline: none;
 }
 
 
 select option {
-  padding: 8px 12px; 
-  font-size: 16px; 
+  padding: 8px 12px;
+  font-size: 16px;
 }
 .App h1{
   align-items: center;
@@ -103,19 +103,19 @@ button {
 .loading {
   color: rgb(2, 2, 49);
   font-size: 20px;
- 
+
 }
 
 .error {
   color: #6C0404;
   font-size: 20px;
-  
+
 }
 
 .prediction {
   color: green;
   font-size: 20px;
-  
+
 }
 @keyframes App-logo-spin {
   from {
